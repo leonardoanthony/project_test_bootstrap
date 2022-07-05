@@ -1,2 +1,78 @@
-@import url('geral.css');
-@import url('login.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.logo img{
+    margin: 0 auto 1em auto;
+    display: block;
+
+}
+
+.box-login{
+    background-color: white;
+    max-width: 80%;
+    min-width: 25%;
+    border-radius: 5px;
+    box-shadow:0 0.76875rem 2.4875rem rgb(52 58 64 / 30%), 0 1.3375rem 1.70625rem rgb(52 58 64 / 30%), 0 0.55rem 0.53125rem rgb(0 0 0 / 5%), 0 0.225rem 0.4375rem rgb(52 58 64 / 30%);
+    padding: 60px 40px;
+    text-align: left;
+}
+
+
+.box-login form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box-login form input[type="text"],
+.box-login form input[type="password"]{
+    width: 100%;
+    height: 3em;
+    border-radius: .5em;
+    border: 1px solid #bbb;
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+.box-login form .flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.box-login form .flex a{
+    text-decoration: none;
+}
+
+.box-login form input[type="submit"]{
+    width: 100%;
+    height: 3em;
+    max-height: 40px;
+    background-color: #15a6f0;
+    background-image: linear-gradient(65deg,#029be9,#22c5fd);
+    color: white;
+    border: none;
+    border-radius: .5em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.box-login form input[type="submit"]:hover{
+    cursor: pointer;
+}
