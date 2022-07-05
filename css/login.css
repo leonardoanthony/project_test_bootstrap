@@ -5,18 +5,18 @@
     height: 100%;
 }
 
-.logo{
-    position: absolute;
-    top: 20px;
-    left: 30px;
+.logo img{
+    margin: 0 auto 1em auto;
+    display: block;
+
 }
 
 .box-login{
     background-color: white;
     max-width: 80%;
     border-radius: 5px;
-    box-shadow: 5px 10px 10px rgba(0,0,0,0.1);
-    padding: 100px 40px;
+    box-shadow:0 0.76875rem 2.4875rem rgb(52 58 64 / 30%), 0 1.3375rem 1.70625rem rgb(52 58 64 / 30%), 0 0.55rem 0.53125rem rgb(0 0 0 / 5%), 0 0.225rem 0.4375rem rgb(52 58 64 / 30%);
+    padding: 60px 40px;
     text-align: left;
 }
 
